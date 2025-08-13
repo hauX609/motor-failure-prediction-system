@@ -1,0 +1,17 @@
+# requirements.txt
+
+# Core web framework
+flask
+
+# Data handling and numerical operations
+joblib
+numpy==1.23.5
+pandas
+scikit-learn
+
+# AI and Machine Learning
+tensorflow==2.13.0
+shap==0.41.0
+
+# Used by the test script for making API calls
+requests

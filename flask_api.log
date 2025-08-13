@@ -1,0 +1,168 @@
+2025-07-27 23:02:01,602 - __main__ - INFO - Starting Flask application...
+2025-07-27 23:02:03,356 - __main__ - INFO - ✅ All model assets loaded successfully.
+2025-07-27 23:02:03,356 - __main__ - INFO - Initializing SHAP explainers...
+2025-07-27 23:02:03,372 - __main__ - WARNING - ⚠️ Could not initialize SHAP explainers: Invalid SHAP background data shape
+2025-07-27 23:02:03,373 - __main__ - INFO - 🚀 Starting server on port 5001...
+2025-07-27 23:02:03,423 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-07-27 23:02:03,423 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-27 23:06:30,136 - __main__ - INFO - Starting Flask application...
+2025-07-27 23:06:30,956 - __main__ - INFO - ✅ All model assets loaded successfully.
+2025-07-27 23:06:30,956 - __main__ - INFO - Initializing SHAP explainers...
+2025-07-27 23:06:30,979 - __main__ - INFO - ✅ SHAP explainers for both outputs initialized successfully.
+2025-07-27 23:06:30,980 - __main__ - INFO - 🚀 Starting server on port 5001...
+2025-07-27 23:06:30,991 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-07-27 23:06:30,991 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-27 23:08:36,152 - werkzeug - INFO - 127.0.0.1 - - [27/Jul/2025 23:08:36] "GET /health HTTP/1.1" 200 -
+2025-07-27 23:08:36,165 - werkzeug - INFO - 127.0.0.1 - - [27/Jul/2025 23:08:36] "GET /motors HTTP/1.1" 200 -
+2025-07-27 23:08:38,005 - __main__ - ERROR - Database error: CHECK constraint failed: severity IN ('Degrading', 'Critical', 'Warning')
+2025-07-27 23:08:38,006 - __main__ - ERROR - Error creating alert for Motor-A-01: CHECK constraint failed: severity IN ('Degrading', 'Critical', 'Warning')
+2025-07-27 23:08:38,014 - werkzeug - INFO - 127.0.0.1 - - [27/Jul/2025 23:08:38] "GET /predict/Motor-A-01 HTTP/1.1" 200 -
+2025-07-27 23:08:39,265 - werkzeug - INFO - 127.0.0.1 - - [27/Jul/2025 23:08:39] "POST /predict/batch HTTP/1.1" 200 -
+2025-07-27 23:08:39,366 - werkzeug - INFO - 127.0.0.1 - - [27/Jul/2025 23:08:39] "POST /predict/batch HTTP/1.1" 200 -
+2025-07-27 23:08:39,371 - __main__ - INFO - Starting prediction for all 4 motors
+2025-07-27 23:08:39,517 - werkzeug - INFO - 127.0.0.1 - - [27/Jul/2025 23:08:39] "POST /predict/all HTTP/1.1" 200 -
+2025-07-27 23:08:39,522 - werkzeug - INFO - 127.0.0.1 - - [27/Jul/2025 23:08:39] "[31m[1mPOST /predict/batch HTTP/1.1[0m" 400 -
+2025-07-27 23:08:39,535 - werkzeug - INFO - 127.0.0.1 - - [27/Jul/2025 23:08:39] "[31m[1mPOST /predict/batch HTTP/1.1[0m" 400 -
+2025-07-27 23:08:39,540 - werkzeug - INFO - 127.0.0.1 - - [27/Jul/2025 23:08:39] "[31m[1mPOST /predict/batch HTTP/1.1[0m" 400 -
+2025-07-27 23:08:46,259 - werkzeug - INFO - 127.0.0.1 - - [27/Jul/2025 23:08:46] "GET /explain/status/Motor-A-01 HTTP/1.1" 200 -
+2025-07-27 23:08:48,384 - werkzeug - INFO - 127.0.0.1 - - [27/Jul/2025 23:08:48] "GET /explain/rul/Motor-A-01 HTTP/1.1" 200 -
+2025-07-27 23:08:48,394 - werkzeug - INFO - 127.0.0.1 - - [27/Jul/2025 23:08:48] "GET /alerts HTTP/1.1" 200 -
+2025-07-27 23:08:48,501 - __main__ - ERROR - Database error: CHECK constraint failed: severity IN ('Degrading', 'Critical', 'Warning')
+2025-07-27 23:08:48,502 - __main__ - ERROR - Error creating alert for Motor-A-01: CHECK constraint failed: severity IN ('Degrading', 'Critical', 'Warning')
+2025-07-27 23:08:48,509 - werkzeug - INFO - 127.0.0.1 - - [27/Jul/2025 23:08:48] "GET /predict/Motor-A-01 HTTP/1.1" 200 -
+2025-07-27 23:08:48,519 - __main__ - ERROR - Unexpected database error: No data found for motor Motor-A-02
+2025-07-27 23:08:48,519 - werkzeug - INFO - 127.0.0.1 - - [27/Jul/2025 23:08:48] "[31m[1mGET /predict/Motor-A-02 HTTP/1.1[0m" 400 -
+2025-07-27 23:08:48,529 - __main__ - ERROR - Unexpected database error: No data found for motor Motor-B-01
+2025-07-27 23:08:48,530 - werkzeug - INFO - 127.0.0.1 - - [27/Jul/2025 23:08:48] "[31m[1mGET /predict/Motor-B-01 HTTP/1.1[0m" 400 -
+2025-07-27 23:08:48,625 - werkzeug - INFO - 127.0.0.1 - - [27/Jul/2025 23:08:48] "POST /predict/batch HTTP/1.1" 200 -
+2025-07-27 23:46:59,463 - __main__ - INFO - Starting Flask application...
+2025-07-27 23:47:00,969 - __main__ - INFO - ✅ All model assets loaded successfully.
+2025-07-27 23:47:00,969 - __main__ - INFO - Initializing SHAP explainers...
+2025-07-27 23:47:00,994 - __main__ - INFO - ✅ SHAP explainers for both outputs initialized successfully.
+2025-07-27 23:47:00,994 - __main__ - INFO - 🚀 Starting server on port 5001...
+2025-07-27 23:47:01,037 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2025-07-27 23:47:01,037 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-27 23:49:23,396 - werkzeug - INFO - 127.0.0.1 - - [27/Jul/2025 23:49:23] "GET /health HTTP/1.1" 200 -
+2025-07-27 23:49:23,410 - werkzeug - INFO - 127.0.0.1 - - [27/Jul/2025 23:49:23] "GET /motors HTTP/1.1" 200 -
+2025-07-27 23:49:25,603 - __main__ - ERROR - Database error: CHECK constraint failed: severity IN ('Degrading', 'Critical', 'Warning')
+2025-07-27 23:49:25,604 - __main__ - ERROR - Error creating alert for Motor-A-01: CHECK constraint failed: severity IN ('Degrading', 'Critical', 'Warning')
+2025-07-27 23:49:25,615 - werkzeug - INFO - 127.0.0.1 - - [27/Jul/2025 23:49:25] "GET /predict/Motor-A-01 HTTP/1.1" 200 -
+2025-07-27 23:49:26,921 - werkzeug - INFO - 127.0.0.1 - - [27/Jul/2025 23:49:26] "POST /predict/batch HTTP/1.1" 200 -
+2025-07-27 23:49:27,023 - werkzeug - INFO - 127.0.0.1 - - [27/Jul/2025 23:49:27] "POST /predict/batch HTTP/1.1" 200 -
+2025-07-27 23:49:27,029 - __main__ - INFO - Starting prediction for all 4 motors
+2025-07-27 23:49:27,133 - werkzeug - INFO - 127.0.0.1 - - [27/Jul/2025 23:49:27] "POST /predict/all HTTP/1.1" 200 -
+2025-07-27 23:49:27,138 - werkzeug - INFO - 127.0.0.1 - - [27/Jul/2025 23:49:27] "[31m[1mPOST /predict/batch HTTP/1.1[0m" 400 -
+2025-07-27 23:49:27,144 - werkzeug - INFO - 127.0.0.1 - - [27/Jul/2025 23:49:27] "[31m[1mPOST /predict/batch HTTP/1.1[0m" 400 -
+2025-07-27 23:49:27,154 - werkzeug - INFO - 127.0.0.1 - - [27/Jul/2025 23:49:27] "[31m[1mPOST /predict/batch HTTP/1.1[0m" 400 -
+2025-07-27 23:49:33,995 - werkzeug - INFO - 127.0.0.1 - - [27/Jul/2025 23:49:33] "GET /explain/status/Motor-A-01 HTTP/1.1" 200 -
+2025-07-27 23:49:36,312 - werkzeug - INFO - 127.0.0.1 - - [27/Jul/2025 23:49:36] "GET /explain/rul/Motor-A-01 HTTP/1.1" 200 -
+2025-07-27 23:49:36,321 - werkzeug - INFO - 127.0.0.1 - - [27/Jul/2025 23:49:36] "GET /alerts HTTP/1.1" 200 -
+2025-07-27 23:49:36,426 - werkzeug - INFO - 127.0.0.1 - - [27/Jul/2025 23:49:36] "GET /predict/Motor-A-01 HTTP/1.1" 200 -
+2025-07-27 23:49:36,435 - __main__ - ERROR - Unexpected database error: No data found for motor Motor-A-02
+2025-07-27 23:49:36,436 - werkzeug - INFO - 127.0.0.1 - - [27/Jul/2025 23:49:36] "[31m[1mGET /predict/Motor-A-02 HTTP/1.1[0m" 400 -
+2025-07-27 23:49:36,446 - __main__ - ERROR - Unexpected database error: No data found for motor Motor-B-01
+2025-07-27 23:49:36,446 - werkzeug - INFO - 127.0.0.1 - - [27/Jul/2025 23:49:36] "[31m[1mGET /predict/Motor-B-01 HTTP/1.1[0m" 400 -
+2025-07-27 23:49:36,545 - werkzeug - INFO - 127.0.0.1 - - [27/Jul/2025 23:49:36] "POST /predict/batch HTTP/1.1" 200 -
+2025-07-27 23:49:36,553 - werkzeug - INFO - 127.0.0.1 - - [27/Jul/2025 23:49:36] "GET /motors/readings/latest HTTP/1.1" 200 -
+2025-07-27 23:49:36,565 - werkzeug - INFO - 127.0.0.1 - - [27/Jul/2025 23:49:36] "GET /motors/Motor-A-01/readings?limit=10 HTTP/1.1" 200 -
+2025-07-28 15:36:42,519 - __main__ - INFO - Starting Flask application...
+2025-07-28 15:36:44,559 - __main__ - INFO - ✅ All model assets loaded successfully.
+2025-07-28 15:36:44,559 - __main__ - INFO - Initializing SHAP explainers...
+2025-07-28 15:36:44,584 - __main__ - INFO - ✅ SHAP explainers for both outputs initialized successfully.
+2025-07-28 15:36:44,584 - __main__ - INFO - 🚀 Starting server on port 5001...
+2025-07-28 15:36:44,826 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.102:5001
+2025-07-28 15:36:44,826 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-28 15:37:29,652 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2025 15:37:29] "GET /health HTTP/1.1" 200 -
+2025-07-28 15:37:29,665 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2025 15:37:29] "GET /motors HTTP/1.1" 200 -
+2025-07-28 15:37:31,500 - __main__ - INFO - 🚨 Alert created for Motor-A-01: Status changed from HEALTHY to Optimal. Predicted RUL: 308
+2025-07-28 15:37:31,500 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2025 15:37:31] "[31m[1mGET /predict/Motor-A-01 HTTP/1.1[0m" 400 -
+2025-07-28 15:37:32,817 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2025 15:37:32] "[31m[1mPOST /predict/batch HTTP/1.1[0m" 400 -
+2025-07-28 15:37:32,931 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2025 15:37:32] "[31m[1mPOST /predict/batch HTTP/1.1[0m" 400 -
+2025-07-28 15:37:32,936 - __main__ - INFO - Starting prediction for all 4 motors
+2025-07-28 15:37:33,052 - __main__ - ERROR - Predict all motors error: Invalid motor update: Motor-A-01, Optimal
+2025-07-28 15:37:33,052 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2025 15:37:33] "[35m[1mPOST /predict/all HTTP/1.1[0m" 500 -
+2025-07-28 15:37:33,057 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2025 15:37:33] "[31m[1mPOST /predict/batch HTTP/1.1[0m" 400 -
+2025-07-28 15:37:33,063 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2025 15:37:33] "[31m[1mPOST /predict/batch HTTP/1.1[0m" 400 -
+2025-07-28 15:37:33,073 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2025 15:37:33] "[31m[1mPOST /predict/batch HTTP/1.1[0m" 400 -
+2025-07-28 15:37:41,539 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2025 15:37:41] "GET /explain/status/Motor-A-01 HTTP/1.1" 200 -
+2025-07-28 15:37:44,049 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2025 15:37:44] "GET /explain/rul/Motor-A-01 HTTP/1.1" 200 -
+2025-07-28 15:37:44,069 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2025 15:37:44] "GET /alerts HTTP/1.1" 200 -
+2025-07-28 15:37:44,088 - __main__ - INFO - Alert 1 acknowledged
+2025-07-28 15:37:44,088 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2025 15:37:44] "POST /alerts/1/ack HTTP/1.1" 200 -
+2025-07-28 15:37:44,101 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2025 15:37:44] "GET /alerts HTTP/1.1" 200 -
+2025-07-28 15:37:44,247 - __main__ - INFO - 🚨 Alert created for Motor-A-01: Status changed from HEALTHY to Optimal. Predicted RUL: 308
+2025-07-28 15:37:44,250 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2025 15:37:44] "[31m[1mGET /predict/Motor-A-01 HTTP/1.1[0m" 400 -
+2025-07-28 15:37:44,372 - __main__ - INFO - 🚨 Alert created for Motor-B-02: Status changed from HEALTHY to Optimal. Predicted RUL: 306
+2025-07-28 15:37:44,373 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2025 15:37:44] "[31m[1mGET /predict/Motor-B-02 HTTP/1.1[0m" 400 -
+2025-07-28 15:37:44,524 - __main__ - INFO - 🚨 Alert created for Motor-C-03: Status changed from HEALTHY to Optimal. Predicted RUL: 307
+2025-07-28 15:37:44,524 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2025 15:37:44] "[31m[1mGET /predict/Motor-C-03 HTTP/1.1[0m" 400 -
+2025-07-28 15:37:44,640 - __main__ - INFO - 🚨 Alert created for Motor-D-04: Status changed from HEALTHY to Optimal. Predicted RUL: 305
+2025-07-28 15:37:44,641 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2025 15:37:44] "[31m[1mGET /predict/Motor-D-04 HTTP/1.1[0m" 400 -
+2025-07-28 15:37:44,775 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2025 15:37:44] "[31m[1mPOST /predict/batch HTTP/1.1[0m" 400 -
+2025-07-28 15:37:44,790 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2025 15:37:44] "GET /motors/readings/latest HTTP/1.1" 200 -
+2025-07-28 15:37:44,802 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2025 15:37:44] "GET /motors/Motor-A-01/readings?limit=10 HTTP/1.1" 200 -
+2025-07-28 15:41:13,189 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2025 15:41:13] "GET /health HTTP/1.1" 200 -
+2025-07-28 15:41:13,229 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2025 15:41:13] "GET /motors HTTP/1.1" 200 -
+2025-07-28 15:41:13,481 - __main__ - INFO - 🚨 Alert created for Motor-A-01: Status changed from HEALTHY to Optimal. Predicted RUL: 308
+2025-07-28 15:41:13,481 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2025 15:41:13] "[31m[1mGET /predict/Motor-A-01 HTTP/1.1[0m" 400 -
+2025-07-28 15:41:14,622 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2025 15:41:14] "[31m[1mPOST /predict/batch HTTP/1.1[0m" 400 -
+2025-07-28 15:41:14,757 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2025 15:41:14] "[31m[1mPOST /predict/batch HTTP/1.1[0m" 400 -
+2025-07-28 15:41:14,763 - __main__ - INFO - Starting prediction for all 4 motors
+2025-07-28 15:41:14,928 - __main__ - ERROR - Predict all motors error: Invalid motor update: Motor-A-01, Optimal
+2025-07-28 15:41:14,929 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2025 15:41:14] "[35m[1mPOST /predict/all HTTP/1.1[0m" 500 -
+2025-07-28 15:41:14,956 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2025 15:41:14] "[31m[1mPOST /predict/batch HTTP/1.1[0m" 400 -
+2025-07-28 15:41:14,968 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2025 15:41:14] "[31m[1mPOST /predict/batch HTTP/1.1[0m" 400 -
+2025-07-28 15:41:15,023 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2025 15:41:15] "[31m[1mPOST /predict/batch HTTP/1.1[0m" 400 -
+2025-07-28 15:41:16,189 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2025 15:41:16] "GET /explain/status/Motor-A-01 HTTP/1.1" 200 -
+2025-07-28 15:41:16,784 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2025 15:41:16] "GET /explain/rul/Motor-A-01 HTTP/1.1" 200 -
+2025-07-28 15:41:16,793 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2025 15:41:16] "GET /alerts HTTP/1.1" 200 -
+2025-07-28 15:41:16,820 - __main__ - INFO - Alert 6 acknowledged
+2025-07-28 15:41:16,824 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2025 15:41:16] "POST /alerts/6/ack HTTP/1.1" 200 -
+2025-07-28 15:41:16,842 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2025 15:41:16] "GET /alerts HTTP/1.1" 200 -
+2025-07-28 15:41:17,027 - __main__ - INFO - 🚨 Alert created for Motor-A-01: Status changed from HEALTHY to Optimal. Predicted RUL: 308
+2025-07-28 15:41:17,029 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2025 15:41:17] "[31m[1mGET /predict/Motor-A-01 HTTP/1.1[0m" 400 -
+2025-07-28 15:41:17,218 - __main__ - INFO - 🚨 Alert created for Motor-B-02: Status changed from HEALTHY to Optimal. Predicted RUL: 306
+2025-07-28 15:41:17,224 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2025 15:41:17] "[31m[1mGET /predict/Motor-B-02 HTTP/1.1[0m" 400 -
+2025-07-28 15:41:17,391 - __main__ - INFO - 🚨 Alert created for Motor-C-03: Status changed from HEALTHY to Optimal. Predicted RUL: 307
+2025-07-28 15:41:17,392 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2025 15:41:17] "[31m[1mGET /predict/Motor-C-03 HTTP/1.1[0m" 400 -
+2025-07-28 15:41:17,566 - __main__ - INFO - 🚨 Alert created for Motor-D-04: Status changed from HEALTHY to Optimal. Predicted RUL: 305
+2025-07-28 15:41:17,567 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2025 15:41:17] "[31m[1mGET /predict/Motor-D-04 HTTP/1.1[0m" 400 -
+2025-07-28 15:41:17,817 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2025 15:41:17] "[31m[1mPOST /predict/batch HTTP/1.1[0m" 400 -
+2025-07-28 15:41:17,846 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2025 15:41:17] "GET /motors/readings/latest HTTP/1.1" 200 -
+2025-07-28 15:41:17,863 - werkzeug - INFO - 127.0.0.1 - - [28/Jul/2025 15:41:17] "GET /motors/Motor-A-01/readings?limit=10 HTTP/1.1" 200 -
+2025-07-29 01:55:24,364 - __main__ - INFO - Starting Flask application...
+2025-07-29 01:55:26,095 - __main__ - INFO - ✅ All model assets loaded successfully.
+2025-07-29 01:55:26,096 - __main__ - INFO - Initializing SHAP explainers...
+2025-07-29 01:55:26,139 - __main__ - INFO - ✅ SHAP explainers for both outputs initialized successfully.
+2025-07-29 01:55:26,143 - __main__ - INFO - 🚀 Starting server on port 5001...
+2025-07-29 01:55:26,418 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.0.102:5001
+2025-07-29 01:55:26,418 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-29 01:55:46,170 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2025 01:55:46] "GET /health HTTP/1.1" 200 -
+2025-07-29 01:55:46,187 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2025 01:55:46] "GET /motors HTTP/1.1" 200 -
+2025-07-29 01:55:48,558 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2025 01:55:48] "GET /predict/Motor-A-01 HTTP/1.1" 200 -
+2025-07-29 01:55:49,906 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2025 01:55:49] "POST /predict/batch HTTP/1.1" 200 -
+2025-07-29 01:55:50,103 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2025 01:55:50] "POST /predict/batch HTTP/1.1" 200 -
+2025-07-29 01:55:50,123 - __main__ - INFO - Starting prediction for all 4 motors
+2025-07-29 01:55:50,303 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2025 01:55:50] "POST /predict/all HTTP/1.1" 200 -
+2025-07-29 01:55:50,308 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2025 01:55:50] "[31m[1mPOST /predict/batch HTTP/1.1[0m" 400 -
+2025-07-29 01:55:50,315 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2025 01:55:50] "[31m[1mPOST /predict/batch HTTP/1.1[0m" 400 -
+2025-07-29 01:55:50,327 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2025 01:55:50] "[31m[1mPOST /predict/batch HTTP/1.1[0m" 400 -
+2025-07-29 01:55:57,545 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2025 01:55:57] "GET /explain/status/Motor-A-01 HTTP/1.1" 200 -
+2025-07-29 01:56:00,337 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2025 01:56:00] "GET /explain/rul/Motor-A-01 HTTP/1.1" 200 -
+2025-07-29 01:56:00,350 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2025 01:56:00] "GET /alerts HTTP/1.1" 200 -
+2025-07-29 01:56:00,480 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2025 01:56:00] "GET /predict/Motor-A-01 HTTP/1.1" 200 -
+2025-07-29 01:56:00,591 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2025 01:56:00] "GET /predict/Motor-B-02 HTTP/1.1" 200 -
+2025-07-29 01:56:00,706 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2025 01:56:00] "GET /predict/Motor-C-03 HTTP/1.1" 200 -
+2025-07-29 01:56:00,815 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2025 01:56:00] "GET /predict/Motor-D-04 HTTP/1.1" 200 -
+2025-07-29 01:56:00,933 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2025 01:56:00] "POST /predict/batch HTTP/1.1" 200 -
+2025-07-29 01:56:00,943 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2025 01:56:00] "GET /motors/readings/latest HTTP/1.1" 200 -
+2025-07-29 01:56:00,958 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2025 01:56:00] "GET /motors/Motor-A-01/readings?limit=10 HTTP/1.1" 200 -

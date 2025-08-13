@@ -1,0 +1,32 @@
+2025-07-27 22:53:25,482 - INFO - Initialized simulator for motor Motor-A-01
+2025-07-27 22:53:25,483 - INFO - Initialized simulator for motor Motor-B-02
+2025-07-27 22:53:25,483 - INFO - Initialized simulator for motor Motor-C-03
+2025-07-27 22:53:25,483 - INFO - Initialized simulator for motor Motor-D-04
+2025-07-27 22:53:25,483 - INFO - Starting motor simulation with 4 motors
+2025-07-27 22:53:25,484 - INFO - Batch size: 10, Sleep interval: 5s
+2025-07-27 22:59:31,409 - WARNING - Sudden degradation event for motor Motor-B-02
+2025-07-27 23:04:47,126 - WARNING - Sudden degradation event for motor Motor-B-02
+2025-07-27 23:12:47,940 - INFO - 🛑 Data generator stopped by user
+2025-07-27 23:12:47,951 - INFO - Motor simulator shutdown complete
+2025-07-29 00:06:22,030 - INFO - Initialized simulator for motor Motor-A-01
+2025-07-29 00:06:22,031 - INFO - Initialized simulator for motor Motor-B-02
+2025-07-29 00:06:22,031 - INFO - Initialized simulator for motor Motor-C-03
+2025-07-29 00:06:22,032 - INFO - Initialized simulator for motor Motor-D-04
+2025-07-29 00:06:22,032 - INFO - Starting motor simulation with 4 motors
+2025-07-29 00:06:22,032 - INFO - Batch size: 10, Sleep interval: 5s
+2025-07-29 00:07:42,268 - WARNING - Sudden degradation event for motor Motor-C-03
+2025-07-29 00:39:52,640 - WARNING - Sudden degradation event for motor Motor-A-01
+2025-07-29 00:55:50,521 - INFO - Motor Motor-B-02 state changed: HEALTHY → DEGRADING (Health: 69.9%)
+2025-07-29 00:56:15,588 - INFO - Motor Motor-A-01 state changed: HEALTHY → DEGRADING (Health: 70.0%)
+2025-07-29 00:56:15,590 - INFO - Motor Motor-C-03 state changed: HEALTHY → DEGRADING (Health: 70.0%)
+2025-07-29 00:56:20,604 - INFO - Motor Motor-D-04 state changed: HEALTHY → DEGRADING (Health: 70.0%)
+2025-07-29 00:59:51,164 - WARNING - Sudden degradation event for motor Motor-A-01
+2025-07-29 01:04:21,951 - WARNING - Sudden degradation event for motor Motor-A-01
+2025-07-29 01:57:20,308 - INFO - Initialized simulator for motor Motor-A-01
+2025-07-29 01:57:20,309 - INFO - Initialized simulator for motor Motor-B-02
+2025-07-29 01:57:20,309 - INFO - Initialized simulator for motor Motor-C-03
+2025-07-29 01:57:20,309 - INFO - Initialized simulator for motor Motor-D-04
+2025-07-29 01:57:20,310 - INFO - Starting motor simulation with 4 motors
+2025-07-29 01:57:20,310 - INFO - Batch size: 10, Sleep interval: 5s
+2025-07-29 01:57:56,487 - INFO - 🛑 Data generator stopped by user
+2025-07-29 01:57:56,506 - INFO - Motor simulator shutdown complete
